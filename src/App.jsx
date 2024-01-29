@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import CardList from './components/CardList';
+import './index.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const items = [
+    {
+      title: "Stringray Touch Tank & Feeding",
+      description: "Expo East",
+      imageUrl: "https://cdn.saffire.com/images.ashx?t=ig&rid=SouthFloridaFair&i=hfhdfh.jpg",
+      link: "https://www.southfloridafair.com/events/2024/stingrays-touch-tank--feeding"
+    }
+  ];
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="app">
+      <h1>South Florida Fair</h1>
+      <CardList items={items} />
+    </div>
+  );
+};
 
-export default App
+export default App;
