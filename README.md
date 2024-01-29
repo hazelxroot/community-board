@@ -2,7 +2,7 @@
 
 Submitted by: Samuel Hesselroth
 
-This web app: **insert description**
+This web app: shows various activities goiing on at the South Florida
 
 Time spent: **X** hours spent in total
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://submissions.us-east-1.linodeobjects.com/web102/nU2z10nd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with submission upload
