@@ -2,7 +2,7 @@
 
 Submitted by: Samuel Hesselroth
 
-This web app: shows various activities goiing on at the South Florida
+This web app: shows various activities going on at the South Florida Fair
 
 Time spent: **X** hours spent in total
 
